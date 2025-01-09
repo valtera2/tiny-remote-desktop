@@ -1,5 +1,7 @@
 # Alpine docker container image with "headless" VNC/RDP environments
 
+this is a fork which removes chrome & firefox and replaces it with Dillo.
+
 Installed with the following components:
 
 * Desktop environment [**Fluxbox**](http://fluxbox.org)
@@ -7,8 +9,9 @@ Installed with the following components:
 * vnc server (default VNC port `5901`)
 * [**noVNC**](https://github.com/novnc/noVNC) - HTML5 VNC client (default http port `6901`)
 * Browsers:
-  * Chromium
-  * Firefox
+  * ~~Chromium~~
+  * ~~Firefox~~
+  * Dillo
   
 
 ## Current provided OS & UI sessions:
